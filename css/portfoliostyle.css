@@ -25,6 +25,7 @@ img{
     border-style: solid;
     border-width: 2px;
     border-color: blue;
+    width: 100%;
 }
 
 .content{
@@ -35,6 +36,7 @@ section{
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
 
 body{
     background-color: #dbf3ff;
