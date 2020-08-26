@@ -1,10 +1,20 @@
-section{
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article{
     margin-left: 15px;
     margin-right: 10px;
     text-align: center;
+    font-size: larger;
 }
 
-img{
+section{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#profilepic{
     max-width: 100%;
     max-height: 100%;
     border-radius: 40%;
@@ -13,7 +23,20 @@ img{
     margin-right: auto;
     border-style: dotted;
     border-width: 2px;
-    border-color: green;
+    border-color: #007BFF;
+}
+
+.profilepics{
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #007BFF;
+    width: 100%;
+    border-style: dotted;
+    margin-top: 40px;
+}
+.content{
+    margin-left:15px;
 }
 
 footer{
@@ -32,6 +55,11 @@ h1{
     margin-left: 15px;
     margin-top: 5px;
 }
+
+h3{
+    margin-top: 10px;
+}
+
 
 body{
     background-color: #dbf3ff;
