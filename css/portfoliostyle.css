@@ -1,5 +1,31 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://lh3.googleusercontent.com/proxy/2EIj_ZZOaXEmQH1iW2Kmu5nLvY1dWimqiUp7lB6YAFeO4on6zISDjnnQpzE8HisKNcMhG3P7VqCz5Vb7D9MgqsCGuFc4lWdZ7AgoudzLc1Kdcb4C9iRzHDrVi9OnZ66gVCCXr9Pr5J1s_z-JPPpJ4vDwvXC8_zZhXBXSTHe-Qg);
+    background-origin: inherit;
+    background-size: cover;
+}
+
+#contentback{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.navbar{
+    background-color: black;
+    color:#39FF14;
+}
+
+    .nav-item{
+        color: #39FF14;
+}
+
+    .nav-item:hover {
+        background-color: #39FF14;
+        color: black;
+}
+
+.row{
+        color:#39FF14;
+        margin-top: 20px;
 }
 
 footer{
@@ -10,7 +36,6 @@ footer{
     bottom: 0;
 }
 
-
 .navbar-brand{
     font-weight: bold;
 }
@@ -18,6 +43,7 @@ footer{
 h1{
     margin-left: 15px;
     margin-top: 5px;
+    color:#39FF14;
 }
 
 h3{
@@ -28,7 +54,7 @@ img{
     border-radius: 10%;
     border-style: solid;
     border-width: 2px;
-    border-color: #007BFF;
+    border-color: black;
     width: 100%;
 }
 

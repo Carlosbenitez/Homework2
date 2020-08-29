@@ -1,6 +1,24 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://lh3.googleusercontent.com/proxy/2EIj_ZZOaXEmQH1iW2Kmu5nLvY1dWimqiUp7lB6YAFeO4on6zISDjnnQpzE8HisKNcMhG3P7VqCz5Vb7D9MgqsCGuFc4lWdZ7AgoudzLc1Kdcb4C9iRzHDrVi9OnZ66gVCCXr9Pr5J1s_z-JPPpJ4vDwvXC8_zZhXBXSTHe-Qg);
+    background-origin: inherit;
+    background-size: cover;
 }
+
+
+.navbar{
+    background-color: black;
+    color:#39FF14;
+    }
+
+    .nav-item{
+        color: #39FF14;
+    }
+
+    .nav-item:hover {
+        background-color: #39FF14;
+        color: black;
+    }
 
 footer{
     position: relative;
@@ -18,14 +36,13 @@ h1{
     font-size: 100px;
     text-align: center;
     margin-top: 20%;
-    margin-bottom: 50%;
+    margin-bottom: 40%;
+    color:#39FF14;
 }
 
 body{
     background-color: #dbf3ff;
 }
-
-
 
 @media screen and (max-width: 600px) {
 }
