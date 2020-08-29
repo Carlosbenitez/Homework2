@@ -9,6 +9,14 @@ form{
     color:#39FF14;
 }
 
+.fa{
+    font-size:24px;
+}
+
+.navbar-toggler{
+    background-color: #39FF14;
+}
+
 .navbar{
     background-color: black;
     color:#39FF14;
