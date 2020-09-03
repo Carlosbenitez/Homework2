@@ -1,8 +1,15 @@
+html{
+    height: 100%;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(../img/backgroundGif.gif);
     background-origin: inherit;
     background-size: cover;
+    min-height: 100%;
+    display:flex;
+    flex-direction: column;
 }
 
 form{
@@ -22,17 +29,17 @@ form{
     color:#39FF14;
     }
 
-    .nav-item{
-        color: #39FF14;
-    }
+.nav-item{
+    color: #39FF14;
+}
 
-    .nav-item:hover {
-        background-color: #39FF14;
-        color: black;
-    }
+.nav-item:hover {
+    background-color: #39FF14;
+    color: black;
+}
 
 footer{
-    position: relative;
+    margin-top: auto;
     text-align: center;
     width: 100%;
     background-color: #f2f2f2;
@@ -53,10 +60,18 @@ body{
     background-color: #dbf3ff;
 }
 
-button{
+.btn{
     margin-left: 15px;
+    background-color: black;
+    color:#39FF14;
+    border: black;
 }
 
+.btn:hover {
+    background-color: #39FF14;
+    color: black;
+    border: #39FF14;
+}
 
 @media screen and (max-width: 640px) {
 
